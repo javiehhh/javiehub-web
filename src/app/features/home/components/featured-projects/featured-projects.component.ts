@@ -12,18 +12,18 @@ export class FeaturedProjects {
 projects: Project[] = [
 
     {
-      title: 'Personal Portfolio',
-      description: 'My personal portfolio built with Angular and Spring Boot.',
-      technologies: ['Angular', 'Spring Boot'],
-      github: 'https://github.com/javiehhh/javiehub-web',
+      title: 'Kibo App',
+      description: 'Financiary health Android application, custom categories, incomes, expenses, budgets...',
+      technologies: ['Kotlin', 'Jetpack Compose', 'Firebase Realtime Database'],
+      github: '#',
       demo: '#'
     },
 
     {
-      title: 'AutoClicker Software',
-      description: 'A java application where u can modify the amount of clicks that your mouse will click automatically.',
-      technologies: ['Java'],
-      github: '#',
+      title: 'Personal Portfolio',
+      description: 'My personal portfolio built with Angular and Spring Boot.',
+      technologies: ['Angular', 'Spring Boot'],
+      github: 'https://github.com/javiehhh/javiehub-web',
       demo: '#'
     },
 

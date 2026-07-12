@@ -47,14 +47,12 @@
   filter: blur(180px);
 
   opacity: .2;
-
-  bottom: -150px;
   right: -150px;
 }
 
 .greeting {
   color: #94a3b8;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-bottom: .5rem;
 }
 
@@ -65,13 +63,14 @@
 .subtitle {
   color: #60a5fa;
   font-weight: 600;
+  font-size: 2.5em;
   margin-bottom: 1.5rem;
 }
 
 .description {
   max-width: 700px;
   margin: auto;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.8;
   color: #cbd5e1;
 }
@@ -93,4 +92,41 @@
 
 .btn-outline-light:hover {
   color: #0f172a;
+}
+
+a{
+  text-decoration: none;
+}
+.scroll-indicator {
+  margin-top: 4rem;
+  font-size: 6rem;
+  color: #60a5fa;
+  text-align: center;
+  cursor: pointer;
+  
+  animation: bounce 1.8s infinite, glow 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(12px);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    opacity: .6;
+    text-shadow: 0 0 8px rgba(96, 165, 250, .2);
+  }
+
+  50% {
+    opacity: 1;
+    text-shadow:
+      0 0 12px rgba(96, 165, 250, .8),
+      0 0 24px rgba(96, 165, 250, .4);
+  }
 }

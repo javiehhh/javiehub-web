@@ -8,5 +8,5 @@ import { RouterLink } from '@angular/router';
   styleUrl: './hero.component.scss',
 })
 export class Hero {
-
+  
 }
