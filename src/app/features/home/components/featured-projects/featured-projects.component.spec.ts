@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TechStack } from './tech-stack';
+import { FeaturedProjects } from './featured-projects.component';
 
-describe('TechStack', () => {
-  let component: TechStack;
-  let fixture: ComponentFixture<TechStack>;
+describe('FeaturedProjects', () => {
+  let component: FeaturedProjects;
+  let fixture: ComponentFixture<FeaturedProjects>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TechStack]
+      imports: [FeaturedProjects]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TechStack);
+    fixture = TestBed.createComponent(FeaturedProjects);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

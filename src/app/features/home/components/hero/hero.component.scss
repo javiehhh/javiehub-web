@@ -3,8 +3,53 @@
   display: flex;
   align-items: center;
 
-  background: #1d2c50;
   color: #f8fafc;
+
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    #0f172a 0%,
+    #111827 100%
+  );
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+
+  width: 500px;
+  height: 500px;
+
+  border-radius: 50%;
+
+  background: #2563eb;
+
+  filter: blur(180px);
+
+  opacity: .25;
+
+  top: -150px;
+  left: -150px;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+
+  width: 450px;
+  height: 450px;
+
+  border-radius: 50%;
+
+  background: #9333ea;
+
+  filter: blur(180px);
+
+  opacity: .2;
+
+  bottom: -150px;
+  right: -150px;
 }
 
 .greeting {

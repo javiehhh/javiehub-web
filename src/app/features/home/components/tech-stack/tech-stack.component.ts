@@ -1,15 +1,16 @@
 import { Component } from '@angular/core';
+import { Technology } from '../../../../core/models/technology.model';
 
 @Component({
   selector: 'app-tech-stack',
   imports: [],
-  templateUrl: './tech-stack.html',
-  styleUrl: './tech-stack.scss',
+  templateUrl: './tech-stack.component.html',
+  styleUrl: './tech-stack.component.scss',
 })
 export class TechStack {
 
-  technologies = [
-    {name: 'Java',
+  technologies : Technology [] = [
+    { name: 'Java',
       icon: '☕',
       description: 'Programming Language'
     },

@@ -1,0 +1,55 @@
+<div class="card project-card h-100 shadow">
+
+  <div class="card-body">
+
+    <h4 class="card-title">
+
+      {{ project().title }}
+
+    </h4>
+
+    <p class="card-text">
+
+      {{ project().description }}
+
+    </p>
+
+    <div class="technologies">
+
+      @for (technology of project().technologies; track technology) {
+
+        <span class="badge">
+
+          {{ technology }}
+
+        </span>
+
+      }
+
+    </div>
+
+  </div>
+
+  <div class="card-footer">
+
+    <a
+      class="btn btn-outline-light btn-sm"
+      [href]="project().github"
+      target="_blank">
+
+      GitHub
+
+    </a>
+
+    <a
+      class="btn btn-primary btn-sm"
+      [href]="project().demo"
+      target="_blank">
+
+      Live Demo
+
+    </a>
+
+  </div>
+
+</div>

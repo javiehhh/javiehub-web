@@ -3,8 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-blog',
   imports: [],
-  templateUrl: './blog.html',
-  styleUrl: './blog.scss',
+  templateUrl: './blog.component.html',
+  styleUrl: './blog.component.scss',
 })
 export class Blog {
 
