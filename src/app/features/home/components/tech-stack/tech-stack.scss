@@ -1,0 +1,29 @@
+.tech-stack {
+  background-color: #111827;
+  color: #f8fafc;
+}
+
+.tech-card {
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 12px;
+  transition: transform .3s ease, box-shadow .3s ease;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .3);
+  }
+}
+
+.icon {
+  font-size: 3rem;
+}
+
+h4 {
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+p {
+  margin-top: .75rem;
+}
