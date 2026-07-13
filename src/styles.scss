@@ -6,6 +6,17 @@
 // custom components at https://material.angular.dev/guide/theming
 @use '@angular/material' as mat;
 
+:root {
+  --bg-primary: #0f172a;
+  --bg-secondary: #111827;
+  --card-bg: #1e293b;
+
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1;
+
+  --accent: #60a5fa;
+}
+
 html {
   height: 100%;
   @include mat.theme((
@@ -17,6 +28,7 @@ html {
     density: 0,
   ));
 }
+
 
 body {
   // Default the application to a light color theme. This can be changed to
