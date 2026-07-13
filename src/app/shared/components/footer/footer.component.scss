@@ -1,0 +1,61 @@
+.footer {
+
+  background-color: var(--bg-primary);
+
+  padding: 3rem 0;
+
+  text-align: center;
+
+  border-top: 1px solid var(--card-bg);
+
+}
+
+.footer h3 {
+
+  color: var(--text-primary);
+
+  font-weight: 700;
+
+}
+
+.footer p {
+
+  color: var(--text-secondary);
+
+}
+
+.social-links {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 2rem;
+
+  margin: 2rem 0;
+
+}
+
+.social-links a {
+
+  color: var(--accent);
+
+  text-decoration: none;
+
+  transition: .3s;
+
+}
+
+.social-links a:hover {
+
+  color: white;
+
+}
+
+.copyright {
+
+  font-size: .9rem;
+
+  color: #94a3b8;
+
+}
